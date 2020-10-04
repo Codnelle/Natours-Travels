@@ -1,0 +1,30 @@
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,
+    $color-primary-light,
+    $color-primary-dark ),url(/../img/ceremony.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0 , 100% 70vh, 0 100%);
+    
+    &logo-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    &logo {
+        height: 35px;
+        
+}
+&text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-42%,-50%);
+    position:absolute;
+    text-align: center;
+    
+}
+}
